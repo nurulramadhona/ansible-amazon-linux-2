@@ -1,3 +1,8 @@
+- name: ec2
+  hosts: localhost
+  connection: local
+  gather_facts: no
+  tasks:
     - name: launch new instance
       amazon.aws.ec2_instance:
         name: amazonlinux2
