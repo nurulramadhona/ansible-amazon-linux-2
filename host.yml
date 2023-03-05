@@ -1,0 +1,9 @@
+localhost:
+  hosts:
+    127.0.0.1
+
+new:
+  hosts:
+    108.136.225.50:
+  vars:
+    hostname: amazonlinux2
